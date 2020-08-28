@@ -25,22 +25,22 @@ requirements:
     - {{ posix }}zip               # [win]
   host:
     - r-base
-    - r-xml
+    - r-rjsonio
     - r-crul >=0.5.2
     - r-data.table
+    - r-httr
     - r-jsonlite
     - r-plyr
     - r-stringr
-    - r-xml2
   run:
     - r-base
-    - r-xml
+    - r-rjsonio
     - r-crul >=0.5.2
     - r-data.table
+    - r-httr
     - r-jsonlite
     - r-plyr
     - r-stringr
-    - r-xml2
 
 test:
   commands:
