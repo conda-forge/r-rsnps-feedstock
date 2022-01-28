@@ -1,4 +1,4 @@
-{% set version = "0.4.0" %}
+{% set version = "0.5.0.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rsnps_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rsnps/rsnps_{{ version }}.tar.gz
-  sha256: a6ce61a0320678e668f0adf95b2416639dc16496cde849091e01da203d31fb5e
+  sha256: 99e175037573fe06615111802bac9701ff385eceda1f34828ea4bf06851ccede
 
 build:
   merge_build_host: true  # [win]
