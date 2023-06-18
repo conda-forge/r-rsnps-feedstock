@@ -1,11 +1,11 @@
-About r-rsnps
-=============
+About r-rsnps-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rsnps-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/ropensci/rsnps
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rsnps-feedstock/blob/main/LICENSE.txt)
 
 Summary: A programmatic interface to various 'SNP' 'datasets' on the web: 'OpenSNP' (<https://opensnp.org>), and 'NBCIs' 'dbSNP' database (<https://www.ncbi.nlm.nih.gov/projects/SNP>). Functions are included for searching for 'NCBI'. For 'OpenSNP', functions are included for getting 'SNPs', and data for 'genotypes', 'phenotypes', annotations, and bulk downloads of data by user.
 
