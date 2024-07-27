@@ -1,6 +1,5 @@
 {% set version = "0.6.0" %}
 {% set posix = 'm2-' if win else '' %}
-{% set native = 'm2w64-' if win else '' %}
 
 package:
   name: r-rsnps
@@ -13,8 +12,7 @@ source:
   sha256: 22046736203b3101a2f487c60603299b7d6947c2a7cde829b4fcf1f8fb1781d3
 
 build:
-  merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
