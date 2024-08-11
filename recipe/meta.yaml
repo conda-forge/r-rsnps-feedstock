@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rsnps_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rsnps/rsnps_{{ version }}.tar.gz
-  sha256: 22046736203b3101a2f487c60603299b7d6947c2a7cde829b4fcf1f8fb1781d3
+  sha256: 5704f6762ffb8863a8f7fe48ed3a7408fb4890b402749ced2eae93ccf0e354e3
 
 build:
   number: 1
